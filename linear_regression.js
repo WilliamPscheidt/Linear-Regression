@@ -23,4 +23,4 @@ class RegressaoLinear {
 
 const modelo = new RegressaoLinear()
 modelo.train([1, 2, 3, 4, 5], [50, 55, 65, 70, 75]);
-console.log("Previsão para 8 horas de estudo", modelo.predict(2).toFixed(2))
+console.log("Previsão para 8 horas de estudo", modelo.predict(8).toFixed(2))
